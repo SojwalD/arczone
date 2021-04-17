@@ -1269,7 +1269,7 @@ form input[type="submit"], form button, form input[type="reset"] {
 
 #branding {
   float: left;
-  margin-top: 20px; }
+  margin-top: 10px; }
   #branding .logo, #branding .logo-text {
     display: inline-block;
     vertical-align: middle; }
@@ -1279,18 +1279,27 @@ form input[type="submit"], form button, form input[type="reset"] {
     font-size: 18px;
     font-size: 1.2857142857em;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 0; }
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
     #branding .site-title a {
-      color: white; }
+      color: white; 
+      padding-bottom: 0;}
   #branding .site-description {
+    line-height: 1px;
+    margin-top: 1px;
+    margin-bottom: 2px;
     font-size: 11px;
+    padding-top: -10px;
     font-size: 0.7857142857em;
-    color: #585858; }
+    letter-spacing: 2px;
+    vertical-align: middle;
+    color: #adadad; }
 
 .main-navigation {
   float: right; }
   .main-navigation .menu-toggle {
+    margin-top: 10px;
     background: none;
     border: none;
     color: #d3d3d3;
@@ -1335,7 +1344,7 @@ form input[type="submit"], form button, form input[type="reset"] {
 
 .mobile-navigation {
   clear: both;
-  padding: 30px 0;
+  padding: 30px 20px;
   display: none; }
   @media screen and (min-width: 991px) {
     .mobile-navigation {
@@ -1344,7 +1353,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     list-style: none;
     padding: 20px;
     border-top: 2px solid #f4c545;
-    border-bottom: 2px solid #f4c545;
+    border-bottom: 7px solid #f4c545;
     text-transform: uppercase; }
     .mobile-navigation .menu a {
       padding: 10px 0;
